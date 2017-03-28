@@ -1,5 +1,5 @@
 FROM webhippie/ubuntu:precise
-MAINTAINER Thomas Boerger <thomas@webhippie.de>
+MAINTAINER Calvin Nguyen <calvin4084@gmail.com>
 
 ADD rootfs /
 CMD ["bash"]
