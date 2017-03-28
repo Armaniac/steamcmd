@@ -32,8 +32,8 @@ RUN groupadd -r steam && \
   chown -R steam:steam \
     /home/steam && \
   cd /home/steam
-  wget \
-    https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuild/artifact/Rocket.Unturned/bin/Release/Rocket.zip -O rocket.zip
+  curl \
+    https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuild/artifact/Rocket.Unturned/bin/Release/Rocket.zip
   unzip -o \
     rocket.zip \
   rm \
