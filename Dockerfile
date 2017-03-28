@@ -32,9 +32,9 @@ RUN groupadd -r steam && \
   chown -R steam:steam \
     /home/steam && \
   cd /home/steam
-  wget https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuild/artifact/Rocket.Unturned/bin/Release/Rocket.zip -O rocket.zip
-  unzip -o rocket.zip
-  rm rocket.zip
-  cd ~/Scripts
-  chmod 755 update.sh
-  chmod 755 start.sh
+RUN wget https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuild/artifact/Rocket.Unturned/bin/Release/Rocket.zip -O rocket.zip
+RUN unzip -o rocket.zip
+RUN rm rocket.zip
+RUN cd ~/Scripts
+RUN chmod 755 update.sh
+RUN chmod 755 start.sh
