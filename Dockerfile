@@ -43,4 +43,4 @@ RUN groupadd -r steam && \
     ~/Scripts &&\
   chmod 755 \
     update.sh \
-    start.sh &&\
+    start.sh
