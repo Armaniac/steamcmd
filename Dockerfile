@@ -10,7 +10,7 @@ RUN groupadd -r steam && \
   apt-get \
     update && \
   apt-get install -y \
-    lib32gcc1 
+    lib32gcc1 \
     wget \
     unzip \
     nano \
@@ -33,8 +33,8 @@ RUN groupadd -r steam && \
     /home/steam && \
   cd \
     /home/steam &&\
-  curl \
-    https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuild/artifact/Rocket.Unturned/bin/Release/Rocket.zip &&\
+  wget \
+    https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuild/artifact/Rocket.Unturned/bin/Release/Rocket.zip -o rocket.zip &&\
   unzip -o \
     rocket.zip &&\
   rm \
