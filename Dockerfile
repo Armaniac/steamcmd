@@ -25,6 +25,7 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get clean
 RUN mkdir -p /home/steam && chown -R steam:steam /home/steam
 RUN cd /home/steam
+WORKDIR /home/steam
 RUN wget https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuild/artifact/Rocket.Unturned/bin/Release/Rocket.zip -o rocket.zip
 RUN unzip rocket.zip 
 RUN rm rocket.zip
