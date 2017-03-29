@@ -42,6 +42,7 @@ Fork -> Patch -> Push -> Pull Request
 ## Authors
 
 * [Thomas Boerger](https://github.com/tboerger)
+* [Calvin Nguyen](https://github.com/marioandluigi878)
 
 
 ## License
