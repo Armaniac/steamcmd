@@ -1,4 +1,4 @@
-FROM webhippie/ubuntu:precise
+FROM rainee4563/ubuntu:16.04-i386
 MAINTAINER Calvin Nguyen <calvin4084@gmail.com>
 
 ADD rootfs /
