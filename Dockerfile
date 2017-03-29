@@ -6,7 +6,6 @@ CMD ["bash"]
 
 RUN groupadd -r steam
 RUN useradd -r -d /home/steam -g steam steam
-RUN dpkg --add-architecture i386
 RUN apt-get update && apt-get install -y \
     lib32gcc1 \
     wget \
