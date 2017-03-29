@@ -6,7 +6,7 @@ CMD ["bash"]
 
 RUN groupadd -r steam
 RUN useradd -r -d /home/steam -g steam steam
-RUN apt-get update && apt-get install -y
+RUN apt-get update && apt-get install -y \
     lib32gcc1 \
     wget \
     unzip \
