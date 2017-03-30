@@ -30,3 +30,6 @@ RUN wget https://ci.rocketmod.net/job/Rocket.Unturned%20Linux/lastSuccessfulBuil
 RUN unzip Rocket.zip 
 RUN rm Rocket.zip
 RUN cd /home/steam/Scripts && chmod 755 update.sh && chmod 755 start.sh
+
+EXPOSE 27015
+EXPOSE 15009
