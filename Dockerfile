@@ -33,3 +33,13 @@ RUN cd /home/steam/Scripts && chmod 755 update.sh && chmod 755 start.sh
 
 EXPOSE 27015/udp
 EXPOSE 15009/udp
+EXPOSE 27016/udp
+EXPOSE 27017/udp
+EXPOSE 15008/udp
+EXPOSE 15010/udp
+EXPOSE 27015/tcp
+EXPOSE 15009/tcp
+EXPOSE 27016/tcp
+EXPOSE 27017/tcp
+EXPOSE 15008/tcp
+EXPOSE 15010/tcp
