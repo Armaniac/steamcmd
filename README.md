@@ -1,6 +1,5 @@
 # SteamCMD
 
-[![](https://images.microbadger.com/badges/image/webhippie/steamcmd.svg)](https://microbadger.com/images/webhippie/steamcmd "Get your own image badge on microbadger.com")
 
 These are docker images for [SteamCMD](http://store.steampowered.com/) running on an [Ubuntu container](https://registry.hub.docker.com/u/webhippie/ubuntu/).
 
